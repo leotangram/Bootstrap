@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- lang="en" -->	
+<html >
+<head>
+  <title>Formulario de Registro</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+ <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+        <!-- Aquí tu solución -->
+        <form>
+          <h1>Registro</h1>
+          <h4>Email</h4>
+          <input type="email" class="form-control" name="email">
+          <h4>Contraseña</h4>
+          <input type="password" class="form-control">
+          <h4>Confirmar contraseña</h4>
+          <input type="password" class="form-control">
+          <h4>País</h4>
+             <select class="form-control" id="sel1">
+              <option>Colombia</option>
+              <option>Unided Stated</option>
+              <option>Brazil</option>
+              <option>England</option>
+            </select>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Recordarme</label>
+            </div>
+            <div class="controls">
+             <button class="btn btn-success">Registrarme</button>
+            </div>
+          </form>  
+        </div>
+      </div>
+  </div>
+
+</body>
+</html>
